@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 Hari Dhar K R — Portfolio
+# 🚀 Giri Dhar K R — Portfolio
 
 ### Full Stack Architect | Cloud Engineer | DevOps | AI/ML | Data Scientist
 
@@ -94,5 +94,5 @@ server.ts                        # Express + Vite dev server
 ---
 
 <div align="center">
-Built with ❤️ by Hari Dhar K R
+Built with ❤️ by Giri Dhar K R
 </div>
