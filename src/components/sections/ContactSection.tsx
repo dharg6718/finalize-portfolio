@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Send, Github, Linkedin, Twitter, Mail } from 'lucide-react';
+import { Send, Github, Linkedin } from 'lucide-react';
 import { useState } from 'react';
 
 export default function ContactSection() {
@@ -108,18 +108,13 @@ export default function ContactSection() {
 
             {/* Social Links */}
             <div className="mt-12 pt-8 border-t border-white/10 flex justify-center gap-6 relative z-10">
-              <a href="#" className="p-3 bg-white/5 rounded-full hover:bg-cyan-500/20 hover:text-cyan-400 text-gray-400 transition-all">
+              <a href="https://github.com/dharg6718" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/5 rounded-full hover:bg-cyan-500/20 hover:text-cyan-400 text-gray-400 transition-all">
                 <Github size={24} />
               </a>
-              <a href="#" className="p-3 bg-white/5 rounded-full hover:bg-cyan-500/20 hover:text-cyan-400 text-gray-400 transition-all">
+              <a href="https://www.linkedin.com/in/giri-dhar-k-r-7308492b3/" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/5 rounded-full hover:bg-cyan-500/20 hover:text-cyan-400 text-gray-400 transition-all">
                 <Linkedin size={24} />
               </a>
-              <a href="#" className="p-3 bg-white/5 rounded-full hover:bg-cyan-500/20 hover:text-cyan-400 text-gray-400 transition-all">
-                <Twitter size={24} />
-              </a>
-              <a href="#" className="p-3 bg-white/5 rounded-full hover:bg-cyan-500/20 hover:text-cyan-400 text-gray-400 transition-all">
-                <Mail size={24} />
-              </a>
+
             </div>
           </motion.div>
         </div>

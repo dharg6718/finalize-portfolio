@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Float, Environment, Sparkles, MeshTransmissionMaterial } from '@react-three/drei';
-import { ArrowRight, Download, Mail } from 'lucide-react';
+import { ArrowRight, Download } from 'lucide-react';
 
 export default function HeroSection() {
   return (
@@ -48,18 +48,13 @@ export default function HeroSection() {
             </a>
             <a
               href="/resume.pdf"
-              target="_blank"
+              download="GIRIDHAR_RESUME.pdf"
               className="flex items-center gap-2 px-8 py-4 rounded-full bg-[#111827] border border-white/5 text-[#E5E7EB] font-semibold hover:bg-[#111827]/80 transition-all"
             >
               <Download size={18} />
               Resume
             </a>
-            <a
-              href="#contact"
-              className="flex items-center gap-2 p-4 rounded-full bg-[#111827] border border-white/5 text-[#E5E7EB] hover:text-white hover:bg-[#111827]/80 transition-all"
-            >
-              <Mail size={20} />
-            </a>
+
           </div>
         </motion.div>
 

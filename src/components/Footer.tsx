@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Twitter } from 'lucide-react';
+import { Github, Linkedin } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -12,18 +12,13 @@ export default function Footer() {
         </div>
 
         <div className="flex justify-center gap-6">
-          <a href="#" className="text-[#64748B] hover:text-blue-600 transition-colors">
+          <a href="https://github.com/dharg6718" target="_blank" rel="noopener noreferrer" className="text-[#64748B] hover:text-blue-600 transition-colors">
             <Github size={20} />
           </a>
-          <a href="#" className="text-[#64748B] hover:text-blue-600 transition-colors">
+          <a href="https://www.linkedin.com/in/giri-dhar-k-r-7308492b3/" target="_blank" rel="noopener noreferrer" className="text-[#64748B] hover:text-blue-600 transition-colors">
             <Linkedin size={20} />
           </a>
-          <a href="#" className="text-[#64748B] hover:text-blue-600 transition-colors">
-            <Twitter size={20} />
-          </a>
-          <a href="#" className="text-[#64748B] hover:text-blue-600 transition-colors">
-            <Mail size={20} />
-          </a>
+
         </div>
 
         <div className="flex justify-end text-sm text-[#64748B]">

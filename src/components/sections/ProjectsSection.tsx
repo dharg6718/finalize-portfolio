@@ -50,7 +50,7 @@ function ProjectCard({ project, index }: { project: any; index: number }) {
             {project.title}
           </h3>
           <div className="flex gap-3">
-            <a href={project.github} className="text-[#64748B] hover:text-[#E5E7EB] transition-colors">
+            <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-[#64748B] hover:text-[#E5E7EB] transition-colors">
               <Github size={22} />
             </a>
             <a href={project.demo} className="text-[#64748B] hover:text-blue-600 transition-colors">
@@ -87,7 +87,7 @@ export default function ProjectsSection() {
       title: 'SmartUzhavan',
       desc: 'AI Agricultural Yield Prediction. Cloud deployed, DevOps CI/CD integrated, ML-based crop prediction.',
       tech: ['React', 'Node.js', 'Python', 'AWS', 'Docker'],
-      github: '#',
+      github: 'https://github.com/dharg6718/yield-prediction',
       demo: '#',
       image: 'https://picsum.photos/seed/smartuzhavan/800/600',
     },
@@ -95,7 +95,7 @@ export default function ProjectsSection() {
       title: 'CI/CD Generator',
       desc: 'Automated pipeline builder. YAML generator, Docker & Kubernetes integration.',
       tech: ['Go', 'React', 'Kubernetes', 'Docker'],
-      github: '#',
+      github: 'https://github.com/dharg6718/ai-ci-cd-generator',
       demo: '#',
       image: 'https://picsum.photos/seed/cicd/800/600',
     },
@@ -103,7 +103,7 @@ export default function ProjectsSection() {
       title: 'AI Smart Tourism',
       desc: 'Intelligent recommendation engine. Smart itinerary builder.',
       tech: ['Next.js', 'Python', 'TensorFlow', 'MongoDB'],
-      github: '#',
+      github: 'https://github.com/dharg6718/tour-place-.txt',
       demo: '#',
       image: 'https://picsum.photos/seed/tourism/800/600',
     },
@@ -111,7 +111,7 @@ export default function ProjectsSection() {
       title: 'Algorithm Detector',
       desc: 'AI Smart Algorithm Detector. Algorithm classification, Time complexity visualization.',
       tech: ['React', 'D3.js', 'Python', 'FastAPI'],
-      github: '#',
+      github: 'https://github.com/dharg6718/ai-smart-algortihm-detector',
       demo: '#',
       image: 'https://picsum.photos/seed/algorithm/800/600',
     },
@@ -119,7 +119,7 @@ export default function ProjectsSection() {
       title: 'Food Ordering Platform',
       desc: 'Full Stack Food Ordering Platform. Cart system, Admin dashboard, Order management.',
       tech: ['MERN', 'Redux', 'Stripe', 'Tailwind'],
-      github: '#',
+      github: 'https://github.com/dharg6718/food-website',
       demo: '#',
       image: 'https://picsum.photos/seed/food/800/600',
     },
@@ -127,7 +127,7 @@ export default function ProjectsSection() {
       title: 'Social Fitness Group',
       desc: 'Real-time tracking, Leaderboards, Community challenges.',
       tech: ['React Native', 'Firebase', 'Node.js', 'Socket.io'],
-      github: '#',
+      github: 'https://github.com/dharg6718/social-fitness',
       demo: '#',
       image: 'https://picsum.photos/seed/fitness/800/600',
     },
